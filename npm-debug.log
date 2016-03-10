@@ -1,0 +1,70 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'D:\\nodejs\\node.exe',
+1 verbose cli   'D:\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   '-d',
+1 verbose cli   'publish' ]
+2 info using npm@2.14.12
+3 info using node@v4.3.2
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: 'D:\\msys64\\home\\JERRY.WU\\react-cpmui-pubsub',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory C:\Users\jerry.wu\AppData\Roaming\npm-cache\react-cpmui-pubsub\0.0.1\package.tgz not in flight; packing
+9 verbose tar pack [ 'C:\\Users\\jerry.wu\\AppData\\Roaming\\npm-cache\\react-cpmui-pubsub\\0.0.1\\package.tgz',
+9 verbose tar pack   'D:\\msys64\\home\\JERRY.WU\\react-cpmui-pubsub' ]
+10 verbose tarball C:\Users\jerry.wu\AppData\Roaming\npm-cache\react-cpmui-pubsub\0.0.1\package.tgz
+11 verbose folder D:\msys64\home\JERRY.WU\react-cpmui-pubsub
+12 info prepublish react-cpmui-pubsub@0.0.1
+13 verbose addLocalTarball adding from inside cache C:\Users\jerry.wu\AppData\Roaming\npm-cache\react-cpmui-pubsub\0.0.1\package.tgz
+14 silly cache afterAdd react-cpmui-pubsub@0.0.1
+15 verbose afterAdd C:\Users\jerry.wu\AppData\Roaming\npm-cache\react-cpmui-pubsub\0.0.1\package\package.json not in flight; writing
+16 verbose afterAdd C:\Users\jerry.wu\AppData\Roaming\npm-cache\react-cpmui-pubsub\0.0.1\package\package.json written
+17 silly publish { name: 'react-cpmui-pubsub',
+17 silly publish   version: '0.0.1',
+17 silly publish   description: '',
+17 silly publish   main: 'index.js',
+17 silly publish   scripts: { test: 'mocha' },
+17 silly publish   repository:
+17 silly publish    { type: 'git',
+17 silly publish      url: 'git+https://github.com/jeromewu/react-cpmui-pubsub.git' },
+17 silly publish   author: '',
+17 silly publish   license: 'ISC',
+17 silly publish   bugs: { url: 'https://github.com/jeromewu/react-cpmui-pubsub/issues' },
+17 silly publish   homepage: 'https://github.com/jeromewu/react-cpmui-pubsub#readme',
+17 silly publish   readme: 'ERROR: No README data found!',
+17 silly publish   _id: 'react-cpmui-pubsub@0.0.1',
+17 silly publish   _shasum: '753d4a344e2e576283cefe693ad84d4c875758ea',
+17 silly publish   _from: '.' }
+18 verbose getPublishConfig undefined
+19 silly mapToRegistry name react-cpmui-pubsub
+20 silly mapToRegistry using default registry
+21 silly mapToRegistry registry http://registry.npmjs.org/
+22 silly mapToRegistry uri http://registry.npmjs.org/react-cpmui-pubsub
+23 verbose publish registryBase http://registry.npmjs.org/
+24 silly publish uploading C:\Users\jerry.wu\AppData\Roaming\npm-cache\react-cpmui-pubsub\0.0.1\package.tgz
+25 verbose stack Error: auth required for publishing
+25 verbose stack     at CachingRegistryClient.publish (D:\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\publish.js:30:14)
+25 verbose stack     at D:\nodejs\node_modules\npm\lib\publish.js:134:14
+25 verbose stack     at mapToRegistry (D:\nodejs\node_modules\npm\lib\utils\map-to-registry.js:55:3)
+25 verbose stack     at publish_ (D:\nodejs\node_modules\npm\lib\publish.js:104:3)
+25 verbose stack     at Array.<anonymous> (D:\nodejs\node_modules\npm\node_modules\slide\lib\bind-actor.js:15:8)
+25 verbose stack     at LOOP (D:\nodejs\node_modules\npm\node_modules\slide\lib\chain.js:15:14)
+25 verbose stack     at LOOP (D:\nodejs\node_modules\npm\node_modules\slide\lib\chain.js:14:28)
+25 verbose stack     at chain (D:\nodejs\node_modules\npm\node_modules\slide\lib\chain.js:20:5)
+25 verbose stack     at D:\nodejs\node_modules\npm\lib\publish.js:73:5
+25 verbose stack     at RES (D:\nodejs\node_modules\npm\node_modules\inflight\inflight.js:23:14)
+26 verbose cwd D:\msys64\home\JERRY.WU\react-cpmui-pubsub
+27 error Windows_NT 6.1.7601
+28 error argv "D:\\nodejs\\node.exe" "D:\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "-d" "publish"
+29 error node v4.3.2
+30 error npm  v2.14.12
+31 error code ENEEDAUTH
+32 error need auth auth required for publishing
+32 error need auth You need to authorize this machine using `npm adduser`
+33 verbose exit [ 1, true ]
